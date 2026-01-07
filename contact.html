@@ -4,15 +4,83 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contact | Robyn Stark Dressage</title>
+
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Lato:wght@300;400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+
+<style>
+/* Page heading (Wix-style) */
+.section h1 {
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.section > p {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 3rem;
+}
+
+/* Contact tiles */
+.contact-tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2.5rem;
+  margin-top: 3rem;
+}
+
+.contact-tile {
+  background: #f7f5f2;
+  padding: 3rem 2.5rem;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 6px;
+  border: 1px solid #e2dfda;
+  transition: all 0.3s ease;
+}
+
+.contact-tile h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #2b2b2b;
+}
+
+.contact-tile p {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 300;
+  color: #555;
+  line-height: 1.6;
+  word-break: break-word;
+}
+
+.contact-tile:hover {
+  transform: translateY(-6px);
+  background: #ffffff;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+</style>
 </head>
+
 <body>
 
+<!-- Banner -->
 <header class="site-header">
   <h1 class="site-title">Robyn Stark Dressage</h1>
 </header>
 
+<!-- Navigation -->
 <nav>
   <ul class="nav-menu">
     <li><a href="index.html">Home</a></li>
@@ -24,37 +92,37 @@
   </ul>
 </nav>
 
+<!-- Page Content -->
 <section class="section">
-<h1>Contact Robyn</h1>
 
-<p>If you have any questions or would like to book a lesson, please use the details below or fill out the form.</p>
+  <h1>Get in Touch</h1>
+  <p>Robyn would love to hear from you</p>
 
-<div class="highlighted">
-Phone: 01234 567890<br>
-Email: <a href="mailto:info@robynstarkdressage.com">info@robynstarkdressage.com</a>
-</div>
+  <div class="contact-tiles">
 
-<h2>Send a message:</h2>
-<form action="#" method="post">
-  <label for="name">Name:</label><br>
-  <input type="text" id="name" name="name" required style="width:100%;padding:8px;margin:5px 0;"><br>
+    <a href="mailto:robynstarkdressage@gmail.com" class="contact-tile">
+      <h2>Email</h2>
+      <p>robynstarkdressage@gmail.com</p>
+    </a>
 
-  <label for="email">Email:</label><br>
-  <input type="email" id="email" name="email" required style="width:100%;padding:8px;margin:5px 0;"><br>
+    <a href="tel:07500803959" class="contact-tile">
+      <h2>Phone</h2>
+      <p>07500 803959</p>
+    </a>
 
-  <label for="message">Message:</label><br>
-  <textarea id="message" name="message" rows="6" required style="width:100%;padding:8px;margin:5px 0;"></textarea><br>
+    <a href="https://www.facebook.com/robynstarkdressage/?ref=bookmarks&_rdr"
+       target="_blank" class="contact-tile">
+      <h2>Facebook</h2>
+      <p>Robyn Stark Dressage</p>
+    </a>
 
-  <button type="submit" style="padding:10px 20px;font-size:1em;margin-top:10px;">Send</button>
-</form>
-
-<div class="image-box">
-  <img src="images/placeholder.jpg" alt="Contact Robyn">
-</div>
+  </div>
 
 </section>
 
-<footer>© 2026 Robyn Stark Dressage</footer>
+<footer>
+  © 2026 Robyn Stark Dressage
+</footer>
 
 </body>
 </html>

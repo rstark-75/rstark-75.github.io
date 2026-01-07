@@ -1,0 +1,98 @@
+/* Fonts */
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #222;
+}
+
+/* Banner */
+.site-header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f9f9f9;
+}
+
+.site-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.5em;
+  font-weight: 600;
+  margin: 0;
+  color: #222;
+}
+
+/* Navigation */
+.nav-menu {
+  display: flex;
+  justify-content: center; /* center nav items below banner */
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav-menu li {
+  margin: 0 15px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  padding: 8px 12px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-menu a:hover {
+  background-color: #222;
+  color: #fff;
+  border-radius: 4px;
+}
+
+/* Page sections */
+.section {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+  text-align: left; /* keep page content left-aligned */
+}
+
+.section h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Image box */
+.image-box {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.image-box img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  padding: 5px;
+  background-color: #fff;
+}
+
+/* Highlighted quotes */
+.highlighted {
+  background-color: #f0f0f0;
+  padding: 15px 20px;
+  margin: 20px 0;
+  border-left: 4px solid #222;
+  font-style: italic;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f9f9f9;
+  border-top: 1px solid #ddd;
+}

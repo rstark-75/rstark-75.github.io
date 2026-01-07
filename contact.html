@@ -1,47 +1,60 @@
-<!doctype html>
-<html lang="en-GB">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Contact | Robyn Stark Dressage</title>
-  <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Robyn Stark Dressage</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Lato:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <div class="wrap nav">
-    <div class="brand"><a href="index.html">Robyn Stark Dressage</a></div>
-    <nav class="menu">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="training.html">Lessons &amp; Schooling</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="testimonials.html">Client Testimonials</a>
-      <a class="active" href="contact.html">Contact</a>
-    </nav>
-  </div>
+
+<header class="site-header">
+  <h1 class="site-title">Robyn Stark Dressage</h1>
 </header>
-<main class="wrap">
-  <section>
-    <h1>Get in touch</h1>
-    <div class="card">
-      <p><strong>Robyn would love to hear from you</strong></p>
-      <p><a href="mailto:robynstarkdressage@yahoo.com">robynstarkdressage@yahoo.com</a><br>
-      <a href="tel:+447500803959">07500 803959</a></p>
-      <p><a href="https://www.facebook.com/robynstarkdressage/" target="_blank" rel="noopener">Find me on Facebook</a></p>
-      <form action="mailto:robynstarkdressage@yahoo.com" method="post" enctype="text/plain">
-        <label for="name">Name</label>
-        <input id="name" name="name" required>
-        <label for="email">Email</label>
-        <input id="email" name="email" type="email" required>
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="6" required></textarea>
-        <p style="margin-top:1rem"><button class="button" type="submit">Send</button></p>
-      </form>
-    </div>
-  </section>
-</main>
-<footer>
-  <div class="wrap">© 2025 Robyn Stark Dressage</div>
-</footer>
+
+<nav>
+  <ul class="nav-menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="lessons.html">Lessons & Schooling</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="testimonials.html">Client Testimonials</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="section">
+<h1>Contact Robyn</h1>
+
+<p>If you have any questions or would like to book a lesson, please use the details below or fill out the form.</p>
+
+<div class="highlighted">
+Phone: 01234 567890<br>
+Email: <a href="mailto:info@robynstarkdressage.com">info@robynstarkdressage.com</a>
+</div>
+
+<h2>Send a message:</h2>
+<form action="#" method="post">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" required style="width:100%;padding:8px;margin:5px 0;"><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required style="width:100%;padding:8px;margin:5px 0;"><br>
+
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" rows="6" required style="width:100%;padding:8px;margin:5px 0;"></textarea><br>
+
+  <button type="submit" style="padding:10px 20px;font-size:1em;margin-top:10px;">Send</button>
+</form>
+
+<div class="image-box">
+  <img src="images/placeholder.jpg" alt="Contact Robyn">
+</div>
+
+</section>
+
+<footer>© 2026 Robyn Stark Dressage</footer>
+
 </body>
 </html>
